@@ -24,7 +24,7 @@ This repository owns portable Herdr app customizations, not Herdr itself.
 
 - `config/` contains only owned files, relative to the Herdr app home:
   keys, settings, programs, personal layouts/themes, and custom mod sources.
-  The initial personal layout is `main-copy`.
+  The initial personal layout is `teebs`.
 - `herdr-nvim.version` pins the upstream Neovim integration. Its downloaded
   mods, launchers, Lua, and binaries are installed artifacts, not our sources.
   Do not copy them into Git or edit them in place.

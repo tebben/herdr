@@ -10,7 +10,7 @@ curl, tar, and `sha256sum` or `shasum` (Linux/macOS).
 
 ```sh
 just                 # list commands
-just apply           # install pinned mod, back up, deploy config, select main-copy
+just apply           # install pinned mod, back up, deploy config, select teebs
 just capture         # save live changes to already-managed config files
 just check           # tests, JSON validation, installed mod checks, app errors
 ```

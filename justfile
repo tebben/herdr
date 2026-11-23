@@ -11,7 +11,7 @@ install-nvim:
 # Deploy owned config; live files are backed up before replacement.
 apply: install-nvim
     python3 scripts/config.py apply
-    herdr-app do layout.switch '{"name":"main-copy"}'
+    herdr-app do layout.switch '{"name":"teebs"}'
     just check
 
 # Save app-side edits to files already owned by this repository.

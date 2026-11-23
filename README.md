@@ -30,6 +30,14 @@ The integration also includes upstream preview/comment features. Installation
 downloads from GitHub; the mod runs Neovim, `hc`, and git and can read project
 files and agent session logs.
 
+Use **Ctrl+H/J/K/L** or **Alt+H/J/K/L** to focus adjacent panes and focusable
+panels. Ctrl bindings intercept those keys in terminals, including Neovim;
+they no longer perform their usual terminal or editor actions.
+
+The cloned Spaces and Agents panels use `j`/`k` to select a row, `Enter` to
+open it, and `h`/`l` to move focus horizontally. They do not receive upstream
+panel updates automatically.
+
 To update the mod, edit `herdr-nvim.version`, run `just install-nvim`, review
 live changes, then `just capture` and `just check`. Herdr updates normally;
 our cloned layout and keys need manual review for new upstream defaults.

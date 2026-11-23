@@ -31,8 +31,9 @@ downloads from GitHub; the mod runs Neovim, `hc`, and git and can read project
 files and agent session logs.
 
 Use **Ctrl+H/J/K/L** or **Alt+H/J/K/L** to focus adjacent panes and focusable
-panels. Ctrl bindings intercept those keys in terminals, including Neovim;
-they no longer perform their usual terminal or editor actions.
+panels. **Ctrl+Shift+H/J/K/L** moves the nearest pane border left/down/up/right
+by 40 pixels. These Ctrl bindings intercept keys in terminals, including
+Neovim; they no longer perform their usual terminal or editor actions.
 
 The cloned Spaces and Agents panels use `j`/`k` to select a row, `Enter` to
 open it, and `h`/`l` to move focus horizontally. They do not receive upstream
